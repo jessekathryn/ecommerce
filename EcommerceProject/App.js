@@ -7,6 +7,8 @@
  */
 
 import React from 'react';
+import WebECommerce from './webECommerce/WebECommerce';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,8 +27,9 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  return (
+  return ( 
     <>
+    <WebECommerce />
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
